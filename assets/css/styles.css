@@ -1,0 +1,28 @@
+body {
+    background-color: #f4f7fa;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.wallet-card {
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.balance-amount {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #198754;
+}
+
+.btn-custom {
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.center-box {
+    min-height: 100vh;
+}
