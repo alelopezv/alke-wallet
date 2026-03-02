@@ -197,6 +197,17 @@ Menú Principal
 
 ---
 
+## Estrategia de Ramas (Git Flow Simplificado)
+
+El proyecto utiliza una estructura de ramas para organizar el desarrollo de funcionalidades:
+* main → Código estable y versión final del proyecto.
+* feature/login → Implementación del sistema de autenticación.
+* feature/transacciones → Funcionalidad de envío y registro de movimientos.
+* feature/depositos → Gestión de depósitos y actualización de saldo.
+Cada funcionalidad fue desarrollada en su propia rama y posteriormente integrada a main.
+
+---
+
 ## 👨‍💻 Autor
 
 Alejandro López
