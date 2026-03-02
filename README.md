@@ -100,6 +100,18 @@ El usuario puede:
 
 ---
 
+### Gestión de Contactos
+
+El usuario puede:
+
+* Agregar nuevos contactos
+* Guardarlos en LocalStorage
+* Utilizarlos mediante autocompletado en futuras transferencias
+
+Los contactos se almacenan de manera persistente en el navegador.
+
+---
+
 ### Historial de Transacciones
 
 Se muestra:
@@ -115,11 +127,12 @@ Las transacciones se almacenan en **LocalStorage** y se cargan dinámicamente.
 
 Se almacenan los siguientes datos:
 
-| Clave        | Descripción              |
-| ------------ | ------------------------ |
-| user         | Usuario logueado         |
-| balance      | Saldo actual             |
-| transactions | Historial de movimientos |
+| Clave        | Descripción                          |
+| ------------ | ------------------------------------ |
+| user         | Usuario logueado                     |
+| balance      | Saldo actual                         |
+| transactions | Historial de movimientos             |
+| contacts     | Lista de contactos guardados         |
 
 ---
 
@@ -143,6 +156,15 @@ Se utilizó:
 * Tablas
 
 El diseño es responsive y adaptable a dispositivos móviles.
+
+---
+
+## Mejoras de Experiencia de Usuario
+
+* Animaciones suaves al cargar pantallas
+* Mensajes dinámicos en formularios
+* Validaciones en tiempo real
+* Simulación de actualización automática del saldo
 
 ---
 

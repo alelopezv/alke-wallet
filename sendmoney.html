@@ -13,6 +13,10 @@
 </nav>
 <div class="container mt-5">
     <div class="card p-4 wallet-card">
+        <input list="contacts" id="contact" class="form-control mb-3" placeholder="Buscar contacto">
+        <datalist id="contacts"></datalist>
+        <input type="text" id="newContact" class="form-control mb-2" placeholder="Nuevo contacto">
+        <button onclick="addContact()" class="btn btn-primary w-100 mb-3">Agregar contacto</button>
         <input type="number" id="amount" class="form-control mb-3" placeholder="Monto a enviar" required>
         <button onclick="sendMoney()" class="btn btn-warning w-100 mb-2">Enviar</button>
         <button onclick="goTo('menu.html')" class="btn btn-secondary w-100">Volver</button>
